@@ -2050,10 +2050,10 @@
   dependencies:
     evm-chains "^0.2.0"
 
-"@losslessproject/hooks@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@losslessproject/hooks/-/hooks-0.1.4.tgz#8cdcdac876e509c2df4b39cea8869cbab1bc3425"
-  integrity sha512-ebr+TpJyA9l103oT5V02JLaJlicuU59mYtEk+77gZnnG4Q3QkUHa8lSLa04X06Zd1U11vLs79hwZbV7kU0IGgg==
+"@losslessproject/hooks@^0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@losslessproject/hooks/-/hooks-0.1.6.tgz#518cb478018710542ab3878faed245244df420a0"
+  integrity sha512-Ts4034P0wThNWpg8/hfeM5FzltuSPcvyzKWB7tParlsm1Vgl4FRpwHZeJqYHrPaIy5GZk0uwjDZzp1F5DEsD/g==
 
 "@losslessproject/pool-data@^0.1.0":
   version "0.1.1"

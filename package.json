@@ -30,7 +30,7 @@
   "dependencies": {
     "@losslessproject/client-js": "^0.1.0",
     "@losslessproject/evm-chains-extended": "^0.1.0",
-    "@losslessproject/hooks": "^0.1.4",
+    "@losslessproject/hooks": "^0.1.6",
     "@losslessproject/pool-data": "^0.1.0",
     "@losslessproject/react-components": "^0.1.0",
     "@losslessproject/twab-delegator-js": "^0.1.0",

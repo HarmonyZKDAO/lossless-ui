@@ -104,6 +104,9 @@ export const EstimatedApproveAndDepositGasItem = (props: EstimatedTxWithAmountPr
 
   const { t } = useTranslation()
 
+  console.log('chainId', chainId)
+  console.log('DEPOSIT_GAS_AMOUNT', DEPOSIT_GAS_AMOUNT)
+
   const {
     totalGasWei: depositTotalGasWei,
     totalGasUsd: depositTotalGasUsd,
