@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Assumes you're in a git repository
-export SENTRY_ORG=pooltogether
+export SENTRY_ORG=harmony-zkdao
 
 if [[ -z "$NEXT_PUBLIC_RELEASE_VERSION" ]]; then
     echo "Must provide NEXT_PUBLIC_RELEASE_VERSION in environment" 1>&2
