@@ -14,7 +14,8 @@ import {
   useScreenSize,
   useInitCookieOptions,
   useInitReducedMotion,
-  initProviderApiKeys as initProviderApiKeysForHooks
+  initProviderApiKeys as initProviderApiKeysForHooks,
+  useIsTestnets
 } from '@losslessproject/hooks'
 import { ThemeContext, ThemeContextProvider } from '@losslessproject/react-components'
 import { Flip, ToastContainer, ToastContainerProps } from 'react-toastify'
@@ -96,6 +97,7 @@ const wagmiClient = createClient({
 
 function MyApp({ Component, pageProps, router }: AppProps) {
   useInitPoolTogetherHooks()
+  const { isTestnets, enableTestnets } = useIsTestnets()
 
   useEffect(() => {
     const fathomSiteId = process.env.NEXT_PUBLIC_FATHOM_SITE_ID
@@ -136,6 +138,15 @@ function MyApp({ Component, pageProps, router }: AppProps) {
     router.events.on('routeChangeComplete', handleExitComplete)
     return () => {
       router.events.off('routeChangeComplete', handleExitComplete)
+    }
+  }, [])
+
+  // Enable testnet as default
+  useEffect(() => {
+    if (!isTestnets) {
+      enableTestnets()
+      // after updating the cookie reload the page or else the app crashes
+      window.location.reload()
     }
   }, [])
 
