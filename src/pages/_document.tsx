@@ -23,7 +23,7 @@ class MyDocument extends Document {
           <>
             <title>{title}</title>
 
-            <link rel='icon' href='/favicon.png' type='image/x-icon' />
+            <link rel='icon' href='/favicon.ico' type='image/x-icon' />
 
             <meta name='theme-color' content='#1e0b43' />
             <meta name='description' content={description} />
