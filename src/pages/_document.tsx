@@ -11,11 +11,11 @@ class MyDocument extends Document {
   }
 
   render() {
-    const title = 'PoolTogether'
-    const url = `https://pooltogether.com`
-    const description = `Deposit to save & win.`
-    const keywords = 'ethereum polygon avalanche prize savings win save protocol'
-    const twitterHandle = '@PoolTogether_'
+    const title = 'Lossless'
+    const url = `https://lossless-ui.vercel.app`
+    const description = `Win by saving.`
+    const keywords = 'harmony prize savings win save protocol'
+    const twitterHandle = ''
 
     return (
       <Html>
@@ -28,7 +28,7 @@ class MyDocument extends Document {
             <meta name='theme-color' content='#1e0b43' />
             <meta name='description' content={description} />
             <meta name='keywords' content={keywords} />
-            <meta name='author' content='PoolTogether' />
+            <meta name='author' content='Lossless' />
 
             <meta property='og:title' content={title} />
             <meta property='og:description' content={description} />
