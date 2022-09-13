@@ -39,7 +39,7 @@ export const SelectAppChainIdModal = (props: SelectAppChainIdModalProps) => {
         <FeatherIcon icon='chevron-down' className='ml-2' />
       </button>
       <BottomSheet open={isOpen} onDismiss={() => setIsOpen(false)} maxWidthClassName='max-w-md'>
-        <h6 className='text-center uppercase text-sm mb-12'>{t('Select a Network')}</h6>
+        <h6 className='text-center uppercase text-sm mb-12'>{t('Select Network')}</h6>
         {/* <p className='max-w-sm mx-auto text-xs mb-12 text-center'>{t('v4NetworkSelectPrompt')}</p> */}
 
         <ul className='space-y-2 mx-auto max-w-sm'>
