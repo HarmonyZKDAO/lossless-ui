@@ -80,7 +80,7 @@ const PrizeAmount = (props: { isFetched: boolean; ticket: Token; prizeTier: Priz
   return (
     <h1
       className={classNames(
-        'text-10xl xs:text-13xl xs:-mt-0 font-semibold text-pt-gradient pointer-events-none mx-auto leading-none relative',
+        'text-10xl xs:text-13xl xs:-mt-0 font-semibold text-flashy pointer-events-none mx-auto leading-none relative',
         { 'opacity-50': !amount }
       )}
     >

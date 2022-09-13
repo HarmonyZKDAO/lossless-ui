@@ -1,5 +1,6 @@
 * {
   --color-bg-readonly-tsunami: #3e0a79;
+  --flashyGradient: linear-gradient(40deg, #3b82f6 10%, #6366f1 40%, #8b5cf6 60%, #d946ef 80%);
 }
 
 /* TODO: Find out why this doesn't work? It's a default in Tailwind */
@@ -60,6 +61,27 @@
 }
 
 @keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.text-flashy {
+  background: var(--flashyGradient);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-size: 200% auto;
+  animation: cycleBackgroundPos 6000ms infinite steps(100);
+}
+
+@keyframes cycleBackgroundPos {
   0% {
     background-position: 0% 50%;
   }
