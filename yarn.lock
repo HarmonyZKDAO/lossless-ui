@@ -1668,6 +1668,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-4.5.11.tgz#3c45014821e8c82b247a291f1944dd2764a2d1ed"
   integrity sha512-toizzQkfXL8YJcG/f8j3EYXYGQe4OxiDEItThSigvHU+cYNDw8HPp3wLYQX745hddsnHqOGCM4exitFSBOU8+w==
 
+"@fontsource/poppins@^4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@fontsource/poppins/-/poppins-4.5.9.tgz#e5c192aef005177c87e23c1b783415d1e9b4b7a8"
+  integrity sha512-PMHOYeUpdmdN1xk13aGvhvZZrv9Zt3ubx2PmDvnROHgefm0ixpFd3ogAi0fY/aWtlkUdvgt0mSkGGbtt5i4MsQ==
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"

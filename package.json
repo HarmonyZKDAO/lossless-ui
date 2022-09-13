@@ -28,6 +28,7 @@
     "typescript": "^4.4.4"
   },
   "dependencies": {
+    "@fontsource/poppins": "^4.5.9",
     "@losslessproject/client-js": "^0.1.0",
     "@losslessproject/evm-chains-extended": "^0.1.0",
     "@losslessproject/hooks": "^0.1.6",

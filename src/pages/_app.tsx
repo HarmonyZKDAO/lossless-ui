@@ -48,6 +48,8 @@ import {
 import { RPC_API_KEYS } from '@constants/config'
 import { useSelectedChainIdWatcher } from '@hooks/useSelectedChainId'
 
+import '@fontsource/poppins'
+
 // Initialize react-query Query Client
 const queryClient = new QueryClient()
 // Initialize read provider API keys to @losslessproject/hooks
