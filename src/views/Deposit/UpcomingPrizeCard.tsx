@@ -48,7 +48,7 @@ const AmountOfPrizes = (props: { isFetched: boolean; ticket: Token; prizeTier: P
   return (
     <div className='uppercase font-semibold text-inverse text-xs xs:text-lg mt-2 mb-1'>
       <Trans
-        i18nKey='prizesEverySingleDay'
+        i18nKey='Prizes Every Day'
         components={{
           button: (
             <ViewPrizesSheetCustomTrigger
