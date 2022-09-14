@@ -27,8 +27,8 @@ export const UpcomingPrizeCard = (props: { className?: string }) => {
 
   return (
     <div className={classNames('flex flex-col text-center space-y-2 relative', className)}>
-      <LightningBolts />
-      <Dots />
+      {/* <LightningBolts /> */}
+      {/* <Dots /> */}
 
       <AmountOfPrizes isFetched={isFetched} prizeTier={prizeTierData?.prizeTier} ticket={ticket} />
       <PrizeAmount isFetched={isFetched} prizeTier={prizeTierData?.prizeTier} ticket={ticket} />
