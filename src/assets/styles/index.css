@@ -10,3 +10,21 @@ body {
   background-color: #458fff !important;
   color: #f1f5f9 !important;
 } */
+
+::-webkit-scrollbar {
+  background-color: #0f172a;
+  @apply w-3;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #334155;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #64748b;
+  @apply rounded-md;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #94a3b8;
+}
