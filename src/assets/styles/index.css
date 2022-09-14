@@ -6,7 +6,7 @@ body {
   font-family: 'Poppins', sans-serif !important;
 }
 
-::selection {
+/* ::selection {
   background-color: #458fff !important;
   color: #f1f5f9 !important;
-}
+} */
