@@ -209,7 +209,7 @@ export const DepositCard = (props: { className?: string }) => {
   return (
     <>
       <div className={className}>
-        <div className='font-semibold uppercase flex items-center justify-center text-xs xs:text-sm mb-2 mt-4'>
+        <div className='font-semibold flex items-center justify-center text-xs xs:text-sm mb-2 mt-4'>
           <span className='text-pt-purple-dark text-opacity-60 dark:text-pt-purple-lighter'>
             {t('depositOn', 'Deposit on')}
           </span>

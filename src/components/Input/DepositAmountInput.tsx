@@ -46,7 +46,7 @@ export const DepositAmountInput = (props: DepositAmountInputProps) => {
       chainId={chainId}
       t={t}
       validate={validate}
-      i18nKey='amount'
+      i18nKey='Amount'
       autoComplete='off'
     />
   )
