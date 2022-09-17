@@ -34,7 +34,7 @@ export const TopNavigation = (props: { className?: string }) => {
       className={classnames(
         className,
         'hidden sm:flex flex-row justify-center',
-        'bg-pt-purple-bright shadow-lg rounded-xl p-1',
+        'bg-indigo900 shadow-lg rounded-lg p-1',
         'w-max'
       )}
     >
@@ -61,7 +61,7 @@ export const BottomNavigation = (props: { className?: string }) => {
         'p-1',
         'flex flex-row justify-center',
         'sm:hidden',
-        'bg-pt-purple-bright shadow-lg',
+        'bg-indigo900 shadow-lg',
         'fixed bottom-0 inset-x-0'
       )}
       style={{ zIndex: 2 }}
@@ -95,10 +95,10 @@ const TopNavTab = (props: NavTabProps) => {
     >
       <a
         className={classnames(
-          'transition mx-1 first:ml-0 last:mr-0 rounded-lg py-0 px-3 flex flex-row',
-          'text-xs hover:text-white active:bg-highlight-9',
-          { 'bg-highlight-9 text-white': isSelected },
-          { 'hover:bg-card-purple': !isSelected }
+          'transition mx-1 first:ml-0 last:mr-0 rounded-lg p-2 px-3 flex flex-row',
+          'text-xs hover:text-white active:bg-indigo700',
+          { 'bg-indigo700 text-white': isSelected },
+          { 'hover:bg-indigo800': !isSelected }
         )}
       >
         <span className={classnames({ 'text-white opacity-70 hover:opacity-100': !isSelected })}>
