@@ -13,6 +13,7 @@ export const FullWalletConnectionButtonWrapper = (props) => {
 
   return (
     <FullWalletConnectionButton
+      className='walletBtn'
       {...props}
       chains={chains}
       TosDisclaimer={
