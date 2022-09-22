@@ -73,3 +73,28 @@ body {
 .burgerBtn {
   color: #458fff !important;
 }
+
+.network-dropdown:hover {
+  border-color: #458fff !important;
+}
+
+.square-btn--teal {
+  background-color: #458fff !important;
+  border-color: #458fff !important;
+  color: #0f172a !important;
+  border-radius: 0.5rem !important;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.3s;
+  padding: 0.5rem 0.75rem !important;
+}
+
+.square-btn--teal:hover {
+  background-color: transparent !important;
+  color: #458fff !important;
+  box-shadow: none !important;
+}
+
+.square-btn--teal:focus {
+  box-shadow: none !important;
+}

@@ -44,13 +44,13 @@ export const TxButton = (props: TxButtonProps) => {
 
   const [content, onClick] = useMemo(() => {
     if (!isWalletConnected) {
-      return [t('connectWallet'), connectWallet]
+      return [t('Connect Wallet'), connectWallet]
     } else if (status === TransactionStatus.pendingUserConfirmation) {
-      return [t('confirmInWallet'), () => null]
+      return [t('Confirm In Wallet'), () => null]
     } else if (status === TransactionStatus.pendingBlockchainConfirmation) {
-      return [t('transactionPending', 'Transaction pending'), () => null]
+      return [t('Transaction Pending', 'Transaction pending'), () => null]
     } else if (!isWalletOnProperNetwork) {
-      return [t('connectToNetwork', { networkName }), () => switchNetwork(chainId)]
+      return [t('Connect To Network', { networkName }), () => switchNetwork(chainId)]
     } else {
       return [children, _onClick]
     }
