@@ -123,9 +123,9 @@ const DepositButton = (props: DepositBottomButtonProps) => {
 
   let label
   if (amountUnformatted?.isZero()) {
-    label = t('enterAnAmountToDeposit')
+    label = t('Enter An Amount To Deposit')
   } else {
-    label = t('reviewDeposit')
+    label = t('Review Deposit')
   }
 
   return (
