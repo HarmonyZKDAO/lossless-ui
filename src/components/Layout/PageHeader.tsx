@@ -44,7 +44,11 @@ const Settings = () => {
   const { t } = useTranslation()
 
   return (
-    <SettingsContainer t={t} className='ml-1 my-auto' sizeClassName='w-6 h-6 overflow-hidden'>
+    <SettingsContainer
+      t={t}
+      className='ml-1 my-auto burgerBtn'
+      sizeClassName='w-6 h-6 overflow-hidden'
+    >
       <div className='flex flex-col justify-between h-full sm:h-auto'>
         <div>
           <LanguagePicker />

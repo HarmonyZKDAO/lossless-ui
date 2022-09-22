@@ -68,3 +68,7 @@ body {
 .walletBtn > button:focus {
   box-shadow: none !important;
 }
+
+.burgerBtn {
+  color: #458fff !important;
+}
