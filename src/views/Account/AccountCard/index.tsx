@@ -20,7 +20,7 @@ export const AccountCard = (props: AccountCardProps) => {
   return (
     <div
       className={classNames(
-        'flex flex-col p-4 pink-purple-gradient rounded-lg space-y-2',
+        'flex flex-col p-4 card-gradient rounded-lg space-y-2',
         props.className
       )}
     >
