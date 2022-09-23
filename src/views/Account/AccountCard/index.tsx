@@ -26,7 +26,7 @@ export const AccountCard = (props: AccountCardProps) => {
     >
       <div className='flex justify-between p-4'>
         <TotalBalance />
-        <img src={WalletIllustration} style={{ width: '65px', height: '60px' }} />
+        {/* <img src={WalletIllustration} style={{ width: '65px', height: '60px' }} /> */}
       </div>
       <div className='flex space-x-2'>
         <DailyOdds />
