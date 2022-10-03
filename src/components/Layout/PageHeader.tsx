@@ -51,8 +51,8 @@ const Settings = () => {
     >
       <div className='flex flex-col justify-between h-full sm:h-auto'>
         <div>
-          <LanguagePicker />
-          <ThemeSettingsItem t={t} />
+          {/* <LanguagePicker /> */}
+          {/* <ThemeSettingsItem t={t} /> */}
           <TestnetSettingsItem t={t} />
           <FeatureRequestSettingsItem t={t} />
           <ClearLocalStorageSettingsItem />
