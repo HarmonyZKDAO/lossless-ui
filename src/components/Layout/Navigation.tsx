@@ -124,9 +124,9 @@ const BottomNavTab = (props: NavTabProps) => {
       <a
         className={classnames(
           'transition mx-1 first:ml-0 last:mr-0 rounded-lg py-2 px-3 flex flex-row',
-          'text-xs hover:text-white active:bg-highlight-9',
-          { 'bg-highlight-9 text-white': isSelected },
-          { 'hover:opacity-60': !isSelected }
+          'text-xs hover:text-white active:bg-indigo700',
+          { 'bg-indigo700 text-white': isSelected },
+          { 'hover:bg-indigo800': !isSelected }
         )}
       >
         <span className={classnames({ 'text-white opacity-70 hover:opacity-100': !isSelected })}>
