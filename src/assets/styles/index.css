@@ -106,3 +106,8 @@ body {
 .inputAmount:focus-within {
   background: linear-gradient(40deg, #3b82f6 10%, #6366f1 40%, #8b5cf6 60%, #d946ef 80%) !important;
 }
+
+.bg-page-header {
+  background: none !important;
+  @apply backdrop-blur-xl backdrop-filter;
+}
