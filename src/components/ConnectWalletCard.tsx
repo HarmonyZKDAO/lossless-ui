@@ -21,7 +21,7 @@ export const ConnectWalletCard = (props: ConnectWalletCardProps) => {
         <span className='text-lg text-inverse font-semibold'>
           {t(
             'poolTogetherIsACrossChainProtocol',
-            'PoolTogether is a cross-chain Prize Pool liquidity protocol.'
+            'Lossless is a cross-chain Prize Pool liquidity protocol.'
           )}
         </span>
         <span>
@@ -38,7 +38,7 @@ export const ConnectWalletCard = (props: ConnectWalletCardProps) => {
             rel='noreferrer noopener'
             className='underline hover:opacity-70 transition-opacity ml-1'
           >
-            {t('learnMoreAboutProtocol')}
+            {t('Learn More About the Protocol')}
           </a>
           .
         </span>
