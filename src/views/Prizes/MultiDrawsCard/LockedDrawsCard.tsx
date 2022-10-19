@@ -134,8 +134,8 @@ const NoDrawsCard = (props: { className?: string }) => {
     <Card className='draw-card' paddingClassName=''>
       <StaticPrizeVideoBackground className='absolute inset-0' />
       <div className='absolute bottom-4 left-0 right-0 xs:top-8 xs:bottom-auto xs:left-auto xs:right-auto px-4 xs:px-8 flex flex-col text-center xs:text-left'>
-        <span className='text-lg text-inverse'>{t('noDrawsToCheckNoDeposits')}</span>
-        <span className=''>{t('comeBackSoon')}</span>
+        <span className='text-lg text-inverse'>{t('No Draws To Check No Deposits')}</span>
+        <span className=''>{t('Come Back Soon')}</span>
       </div>
     </Card>
   )
