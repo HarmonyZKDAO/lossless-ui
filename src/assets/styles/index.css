@@ -78,6 +78,10 @@ body {
   border-color: #458fff !important;
 }
 
+.network-dropdown {
+  @apply bg-indigo900;
+}
+
 .square-btn--teal {
   background-color: #458fff !important;
   border-color: #458fff !important;
