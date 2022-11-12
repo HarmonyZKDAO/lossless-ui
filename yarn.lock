@@ -2075,10 +2075,10 @@
     "@losslessproject/testnet" "0.1.1"
     "@pooltogether/v4-mainnet" "1.6.1"
 
-"@losslessproject/react-components@^0.1.0":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@losslessproject/react-components/-/react-components-0.1.1.tgz#fbc90cc5cbd03572ee8d5c6604ddf2f8ae90c097"
-  integrity sha512-dXykynMWApwMTcFxD6uUgFujbfv+FGP5T7mYggzqh27BPNjbI8LJMqjnPIWyImOdiHwFFvEg3Q301rb2WCrNug==
+"@losslessproject/react-components@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@losslessproject/react-components/-/react-components-0.1.2.tgz#ad26f62f4772d3ad357b21310843fafa3c4dff9b"
+  integrity sha512-GwRMAXms8WFLoWNv7jzGD0DySk41MvzEBJ+mwarVqUM5FblY2IVHczqK8xamLE8cTo7r1UenTEMlzNQQ25WXcA==
   dependencies:
     "@download/blockies" "^1.0.3"
     "@reach/dialog" "^0.15.0"
