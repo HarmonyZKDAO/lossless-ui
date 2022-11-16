@@ -314,4 +314,4 @@ const PastDrawsListHeader = (props: { className?: string }) => {
   )
 }
 
-const LoadingRow = () => <div className='w-full rounded-lg animate-pulse bg-card h-24' />
+const LoadingRow = () => <div className='w-full rounded-lg animate-pulse bg-blue900 h-24' />
