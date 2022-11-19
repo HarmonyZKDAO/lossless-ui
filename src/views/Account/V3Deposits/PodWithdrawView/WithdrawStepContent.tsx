@@ -195,7 +195,7 @@ const WithdrawInputStep = (props: WithdrawInputStepProps) => {
       <WithdrawWarning className='mt-2' />
 
       <SquareButton disabled={!isValid && isDirty} type='submit' className='w-full mt-8'>
-        {t('reviewWithdrawal')}
+        {t('Review Withdrawal')}
       </SquareButton>
     </form>
   )
