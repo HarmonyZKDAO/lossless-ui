@@ -75,7 +75,7 @@ export const SUPPORTED_CHAINS: { [key: string]: Chain[] } = Object.freeze({
 // TODO: Switch this back to polygon. Maybe we need to do a network test before setting the default...
 export const DEFAULT_CHAIN_IDS = Object.freeze({
   [APP_ENVIRONMENTS.mainnets]: CHAIN_ID.polygon,
-  [APP_ENVIRONMENTS.testnets]: CHAIN_ID['harmony-devnet']
+  [APP_ENVIRONMENTS.testnets]: CHAIN_ID['harmony-testnet']
 })
 
 // Native currency symbols in app
