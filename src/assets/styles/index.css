@@ -123,3 +123,7 @@ body {
   background: none !important;
   @apply backdrop-blur-xl backdrop-filter;
 }
+
+.selectChainIdBorder:hover {
+  border-color: #458fff;
+}

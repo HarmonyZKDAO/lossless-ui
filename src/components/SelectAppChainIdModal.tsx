@@ -29,7 +29,7 @@ export const SelectAppChainIdModal = (props: SelectAppChainIdModalProps) => {
         className={classNames(
           className,
           'bg-tertiary rounded-lg py-2 px-3 flex items-center',
-          'border border-transparent hover:border-highlight-1'
+          'border border-transparent selectChainIdBorder'
         )}
       >
         <NetworkIcon chainId={selectedChainId} className='mx-1' sizeClassName='w-5 h-5' />
@@ -82,7 +82,7 @@ const NetworkItem = (props: {
         }}
         className={classNames(
           'bg-pt-purple-lighter dark:bg-pt-purple-darker rounded-lg px-4 p-2 flex items-center justify-between w-full transition-colors',
-          'border hover:border-highlight-1',
+          'border selectChainIdBorder',
           {
             'border-default': isSelected,
             'border-transparent': !isSelected
