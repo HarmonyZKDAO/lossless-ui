@@ -72,7 +72,7 @@ const TotalWinningsSheet = (props: TotalWinningsSheetProps) => {
           <span className='font-bold text-xl mb-1'>
             ${totalClaimedAmount?.amountPretty || '--'}
           </span>
-          <span className='uppercase opacity-50 font-semibold text-xxs'>{t('totalWinnings')}</span>
+          <span className='uppercase opacity-50 font-semibold text-xxs'>{t('Total Winnings')}</span>
         </div>
       </div>
       <PrizesClaimedList />
