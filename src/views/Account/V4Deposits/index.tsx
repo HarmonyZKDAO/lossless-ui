@@ -129,7 +129,7 @@ const DepositItem = (props: DepositItemsProps) => {
         bottom={<DelegateTicketsSection prizePool={prizePool} balance={balances?.ticket} />}
       />
       <BalanceBottomSheet
-        title={t('depositsOnNetwork', { network: getNetworkNiceNameByChainId(chainId) })}
+        title={t('Deposits on Network', { network: getNetworkNiceNameByChainId(chainId) })}
         open={isOpen}
         label={`Manage deposits for ${prizePool.id()}`}
         onDismiss={onDismiss}
@@ -142,7 +142,7 @@ const DepositItem = (props: DepositItemsProps) => {
               theme={SquareButtonTheme.teal}
               className='w-full'
             >
-              {t('deposit')}
+              {t('Deposit')}
             </SquareLink>
           </Link>
         }
@@ -159,7 +159,7 @@ const DepositItem = (props: DepositItemsProps) => {
                 refetchBalances={refetchBalances}
               />
             ),
-            label: t('withdraw'),
+            label: t('Withdraw'),
             theme: SquareButtonTheme.tealOutline
           }
         ]}
