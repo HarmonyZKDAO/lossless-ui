@@ -16,7 +16,11 @@ import { Trans, useTranslation } from 'react-i18next'
 import { useRouter } from 'next/router'
 import { msToS } from '@losslessproject/utilities'
 import { BigNumber } from 'ethers'
-import { Transaction, TransactionStatus, useWalletChainId } from '@losslessproject/wallet-connection'
+import {
+  Transaction,
+  TransactionStatus,
+  useWalletChainId
+} from '@losslessproject/wallet-connection'
 
 import { TxButton } from '@components/Input/TxButton'
 import { EstimatedDepositGasItems } from '@components/InfoList/EstimatedGasItem'
