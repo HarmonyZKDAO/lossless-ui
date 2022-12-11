@@ -84,8 +84,8 @@ const TotalBalanceAmount = (props: {
   return <CountUp countTo={Number(totalV4Balance)} />
 }
 
-const DailyOdds = () => <OddsBox i18nKey='dailyOdds' daysOfPrizes={1} />
-const WeeklyOdds = () => <OddsBox i18nKey='weeklyOdds' daysOfPrizes={7} />
+const DailyOdds = () => <OddsBox i18nKey='daily Odds' daysOfPrizes={1} />
+const WeeklyOdds = () => <OddsBox i18nKey='weekly Odds' daysOfPrizes={7} />
 
 const OddsBox = (props: { i18nKey: string; daysOfPrizes: number }) => {
   const { i18nKey, daysOfPrizes } = props
@@ -116,7 +116,7 @@ const OddsBox = (props: { i18nKey: string; daysOfPrizes: number }) => {
         <span className='font-bold flex text-lg mx-auto'>
           {daysOfPrizes === 1 ? '0 😔' : t('stillZero', 'Still 0')}
         </span>
-        <span className='mt-1 opacity-50 font-bold uppercase'>{t(i18nKey)}*</span>
+        <span className='mt-1 opacity-50 font-bold uppercase'>{t(i18nKey)}</span>
       </div>
     )
   }
@@ -124,7 +124,7 @@ const OddsBox = (props: { i18nKey: string; daysOfPrizes: number }) => {
   return (
     <div className='bg-white bg-opacity-20 dark:bg-actually-black dark:bg-opacity-10 rounded-lg w-full p-4 flex flex-col leading-none text-center'>
       <span className='font-bold flex text-lg mx-auto'>1:{oneOverOddstring}</span>
-      <span className='mt-1 opacity-50 font-bold uppercase'>{t(i18nKey)}*</span>
+      <span className='mt-1 opacity-50 font-bold uppercase'>{t(i18nKey)}</span>
     </div>
   )
 }
