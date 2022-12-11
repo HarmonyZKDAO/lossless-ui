@@ -38,7 +38,7 @@ export const V3StakingCards = () => {
 
   return (
     <div className='flex flex-col space-y-2'>
-      <CardTitle title={t('staking')} secondary={`$${amount.amountPretty}`} loading={!isFetched} />
+      <CardTitle title={t('Staking')} secondary={`$${amount.amountPretty}`} loading={!isFetched} />
       <POOLStakingCards />
       <LPStakingCards />
     </div>
