@@ -30,7 +30,7 @@ export const VotingPromptCard = (props: { className?: string; persist?: boolean 
         </span>
         <div className='xs:ml-2 flex flex-col space-y-1 xs:space-y-0 xs:flex-row xs:justify-between xs:w-full'>
           <div className='text-pt-purple-dark dark:text-pt-purple-lighter flex flex-col justify-center space-y-1 leading-none'>
-            <span className='font-bold'>{t('pooltogetherGovernance')}</span>
+            <span className='font-bold'>{t('Lossless Governance')}</span>
             {!noProposals && (
               <span>{t('activeProposalsCount', { count: activeProposalsCount })}</span>
             )}
