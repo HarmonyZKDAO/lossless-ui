@@ -2075,27 +2075,9 @@
     "@losslessproject/testnet" "^0.1.3"
     "@pooltogether/v4-mainnet" "1.6.1"
 
-"@losslessproject/react-components@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@losslessproject/react-components/-/react-components-0.1.2.tgz#ad26f62f4772d3ad357b21310843fafa3c4dff9b"
-  integrity sha512-GwRMAXms8WFLoWNv7jzGD0DySk41MvzEBJ+mwarVqUM5FblY2IVHczqK8xamLE8cTo7r1UenTEMlzNQQ25WXcA==
-  dependencies:
-    "@download/blockies" "^1.0.3"
-    "@reach/dialog" "^0.15.0"
-    "@reach/menu-button" "^0.15.1"
-    "@reach/popover" "^0.15.0"
-    "@reach/visually-hidden" "0.15.0"
-    classnames "^2.2.6"
-    deep-equal "^2.0.5"
-    js-cookie "^2.2.1"
-    react-content-loader "^6.0.3"
-    react-copy-to-clipboard "^5.0.3"
-    react-countup "^6.1.0"
-    react-device-detect "^1.15.0"
-    react-hotkeys "^2.0.0"
-    react-loader-spinner "^4.0.0"
-    react-toastify "^8.2.0"
-    react-tooltip "^4.2.21"
+"@losslessproject/react-components@link:.yalc/@losslessproject/react-components":
+  version "0.0.0"
+  uid ""
 
 "@losslessproject/testnet@^0.1.3":
   version "0.1.3"
@@ -5937,9 +5919,9 @@ camelize@^1.0.0:
   integrity sha512-W2lPwkBkMZwFlPCXhIlYgxu+7gC/NUlCtdK652DAJ1JdgV0sTrvuPFshNPrFa1TY2JOkLhgdeEBplB4ezEa+xg==
 
 caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30001332, caniuse-lite@^1.0.30001335, caniuse-lite@^1.0.30001366:
-  version "1.0.30001367"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001367.tgz#2b97fe472e8fa29c78c5970615d7cd2ee414108a"
-  integrity sha512-XDgbeOHfifWV3GEES2B8rtsrADx4Jf+juKX2SICJcaUhjYBO3bR96kvEIHa15VU6ohtOhBZuPGGYGbXMRn0NCw==
+  version "1.0.30001441"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001441.tgz"
+  integrity sha512-OyxRR4Vof59I3yGWXws6i908EtGbMzVUi3ganaZQHmydk1iwDhRnvaPG2WaR0KcqrDFKrxVZHULT396LEPhXfg==
 
 caseless@~0.12.0:
   version "0.12.0"
